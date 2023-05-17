@@ -13,6 +13,7 @@ int recursion(const char* s, int l, int r) {
 }
 
 int isPalindrome(const char* s) {
+
     return recursion(s, 0, strlen(s) - 1);
 }
 
