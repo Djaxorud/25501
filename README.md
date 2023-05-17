@@ -5,6 +5,7 @@
 int cnt;
 
 int recursion(const char* s, int l, int r) {
+
     cnt++;
     if (l >= r) return 1;
     else if (s[l] != s[r]) return 0;
